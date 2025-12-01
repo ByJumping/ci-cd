@@ -17,9 +17,21 @@ const formData: Form = reactive({
 
 <template>
   <div>
-    <p>{{ formData.input }}</p>
-    <p>{{ formData.input2 }}</p>
-    <p>{{ formData.input3 }}</p>
+    <div>
+      <p>Первый инпут:</p>
+      <p>{{ formData.input }}</p>
+    </div>
+    <div>
+      <p>Второй инпут:</p>
+      <p>{{ formData.input2 }}</p>
+    </div>
+    <div>
+      <p>Третий инпут:</p>
+      <p>{{ formData.input3 }}</p>
+    </div>
+
+
+
   </div>
   <HelloWorld v-model="formData"/>
 </template>
