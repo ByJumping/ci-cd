@@ -5,7 +5,7 @@ import {reactive} from "vue";
 export interface Form {
   input: string;
   input2: string;
-  input3: number;
+  input3: string;
 }
 
 const formData: Form = reactive({
